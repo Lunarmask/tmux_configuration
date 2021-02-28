@@ -43,36 +43,41 @@ You have both windows and panes at your disposal.
 ---------------------
 #### Pane Management
 
-`<C-a>v` or `<Alt>v` Create a vertical split-pane.  
+`<Ctl-a>v` or `<Alt>v` Create a vertical split-pane.  
 
-`<C-a>s` or `<Alt>s` Create a horizontal split-pane.  
+`<Ctl-a>s` or `<Alt>s` Create a horizontal split-pane.  
 
-`<C-a>z` or `<Alt>z` Maximize focus to the current pane. Toggle off with the same command.  
+`<Ctl-a>z` or `<Alt>o` Maximize focus to the current pane. Toggle off with the same command.  
 
-`<C-a>x` or `<Alt>x` Close out current pane.  
+`<Ctl-a>x` or `<Alt>x` Close out current pane.  
 
-`<C-a>hjkl` or `<Alt>hjkl` Use Vim-keys to navigate between panes.  
+`<Ctl-a>hjkl` or `<Alt>hjkl` Use Vim-keys to navigate between panes.  
+
+`<Ctl-Alt>hjkl` Resize pane by 5 units  
 
 ---------------------
 #### Window Management
 
-`<C-a>c` or `<Alt>c` Create a new window.  
+`<Ctl-a>c` or `<Alt>c` Create a new window.  
 
 `<Alt-Shift>hk` Use Alt+shift + Vim-keys to navigate windows.  
 
 `<Alt>LEFT|RIGHT` Use Alt and arrows-keys to navigate windows.  
 
-`<C-a>,` or `<Alt>,` Rename current Window.  
+`<Alt-Shift>LEFT|RIGHT` Use Alt+Shift and arrow-keys to move windows.  
+
+`<Ctl-a>,` Rename current Window.  
 
 ---------------
-#### VIM MODE
+#### Copy Mode
 
-`<C-a>[` Enters into vim mode.  
-* This allows you to navigate and copy text that appeared in the data feed.
+`<Ctl-a>[` or `<Alt>[` Enters into vim-styled copy-mode.  
+* This allows you to navigate and copy text that exists within the data feed.
 
 
 `/` or `?` Search  for _{regex}_<br>  
 `n` Jump to the next instance of highlighted word<br>  
 `N` Jump to previous instance of highlighted word<br>  
 `v` Start visualing text to copy<br>  
-`y` Copy visualized text.  
+* `<Ctl>v` Enter visual-block-mode if already inside visual-mode.
+`y` Copy visualized text to system clipboard.  
