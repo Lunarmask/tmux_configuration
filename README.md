@@ -7,7 +7,7 @@
 __[Alacritty](https://github.com/alacritty/alacritty)__ paired
 with __[tmux](https://github.com/tmux/tmux)__ makes for a killer combo!
 
-* This config is only a part of my config compilation __[Lunarmasks Linux Config](https://gitlab.com/linux_configurations/tmux_configuration)__.
+* This config is only a part of my config compilation __[Lunarmasks Linux Configs](https://gitlab.com/lunar_linux_configs)__.
 
 ---------
 ### ABOUT
@@ -79,5 +79,5 @@ You have both windows and panes at your disposal.
 `n` Jump to the next instance of highlighted word<br>  
 `N` Jump to previous instance of highlighted word<br>  
 `v` Start visualing text to copy<br>  
-* `<Ctl>v` Enter visual-block-mode if already inside visual-mode.
+* `<Ctl>v` Enter visual-block-mode if already inside visual-mode.  
 `y` Copy visualized text to system clipboard.  
