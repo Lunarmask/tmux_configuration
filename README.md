@@ -74,10 +74,13 @@ You have both windows and panes at your disposal.
 `<Ctl-a>[` or `<Alt>[` Enters into vim-styled copy-mode.  
 * This allows you to navigate and copy text that exists within the data feed.
 
-
 `/` or `?` Search  for _{regex}_<br>  
+
 `n` Jump to the next instance of highlighted word<br>  
+
 `N` Jump to previous instance of highlighted word<br>  
+
 `v` Start visualing text to copy<br>  
 * `<Ctl>v` Enter visual-block-mode if already inside visual-mode.  
+
 `y` Copy visualized text to system clipboard.  
